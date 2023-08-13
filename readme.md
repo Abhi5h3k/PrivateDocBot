@@ -39,7 +39,7 @@ Make sure you have the following installed:
 5. Launch the application using the following command:
 ```chainlit run main.py -w```
 6. For the initial setup, it's essential to build the vector database. Click on the "Rebuild vector" to initiate this process. 
-![Rebuild vector](image-1.png) 
+![Rebuild vector](rebuild_vector_db.png) 
 7. With the setup complete, you can now ask pertinent questions related to your PDF document. Input your queries and receive informative responses.
 
 #### Follow these instructions meticulously to ensure seamless functionality and accurate outcomes. Experience the convenience of easily querying your PDF office data for insightful insights!
