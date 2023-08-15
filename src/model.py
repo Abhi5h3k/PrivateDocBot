@@ -58,7 +58,7 @@ def build_retrieval_qa(llm, qa_prompt, vectordb):
                                        )
     return qa_chain
 
-def qa_bot(selected_model_name = "llama-2-7b-chat.ggmlv3.q8_0.bin"):
+def qa_bot(selected_model_name = "llama-2-7b-chat.ggmlv3.q2_K.bin"):
     # setup QA Bot
     
     embeddings = get_sentence_transformer()
@@ -70,9 +70,4 @@ def qa_bot(selected_model_name = "llama-2-7b-chat.ggmlv3.q8_0.bin"):
     qa_bot = build_retrieval_qa(llm, qa_prompt, vectordb)
 
     return qa_bot
-
-# def final_response(query, selected_model_name = "llama-2-7b-chat.ggmlv3.q8_0.bin"):
-#     qa_result = qa_bot(selected_model_name)
-#     response = qa_result({'query' : query})
-#     return response
 # ->

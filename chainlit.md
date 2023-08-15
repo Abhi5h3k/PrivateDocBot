@@ -5,7 +5,7 @@
 
 ## Locally Hosted Chat Bot for Private data
 
-![gif](chatBot.gif)
+![](chatBot.gif)
 
 ## Project Overview
 
@@ -32,6 +32,8 @@ Make sure you have the following installed:
 ## Setup Instructions
 1. Clone the project repository using Git.
 2. Download the necessary model from HuggingFace by visiting the following link: [Download Llama Model](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin). Once downloaded, move the model file to the "models" directory.
+    - also tested with ```llama-2-7b-chat.ggmlv3.q2_K.bin```
+    - [Models](models/models.md)
 3.  Install the required Python packages by running the following command:
 ```pip install -r requirements.txt ```
 4. Place your PDF document in the "data" directory. You can choose the appropriate document loader from the available options to match your requirements. Refer to [Document Loaders](https://python.langchain.com/docs/integrations/document_loaders/) for more information. Note that the current implementation is designed for PDF documents. 
@@ -39,7 +41,7 @@ Make sure you have the following installed:
 5. Launch the application using the following command:
 ```chainlit run main.py -w```
 6. For the initial setup, it's essential to build the vector database. Click on the "Rebuild vector" to initiate this process. 
-![Rebuild vector](rebuild_vector_db.png) 
+![](rebuild_vector_db.png) 
 7. With the setup complete, you can now ask pertinent questions related to your PDF document. Input your queries and receive informative responses.
 
 #### Follow these instructions meticulously to ensure seamless functionality and accurate outcomes. Experience the convenience of easily querying your PDF office data for insightful insights!
