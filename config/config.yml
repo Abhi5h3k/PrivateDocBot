@@ -6,5 +6,5 @@ DATA_PATH: 'data'
 DB_FAISS_PATH: 'vectorstore\db_faiss'
 MODEL_BIN_DIR: 'models'
 MAX_NEW_TOKENS: 512
-TEMPERATURE: 0.02
+TEMPERATURE: 0.6
 DEVICE: 'cpu'

@@ -11,7 +11,7 @@ public = true
 # local will create a database in your .chainlit directory (requires node.js installed).
 # cloud will use the Chainlit cloud database.
 # custom will load use your custom client.
-# database = "local"
+database = "local"
 
 # Whether to enable telemetry (default: true). No personal data is collected.
 enable_telemetry = false

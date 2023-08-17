@@ -28,6 +28,9 @@ Make sure you have the following installed:
 
 - Python 3.11.0
 - pip 23.2.1
+- To utilize the online database, you can simply comment out the line `database = "local"` in the `config.toml` file. This will ensure that the necessary dependencies are installed.
+- Please note that for the local mode, a functional Node.js installation is essential as it relies on the Prisma CLI for its operation. You can find more details about setting up local persistence in the [Chainlit documentation](https://docs.chainlit.io/cloud/persistence/local).
+
 
 ## Setup Instructions
 1. Clone the project repository using Git.
