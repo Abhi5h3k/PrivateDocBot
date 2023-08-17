@@ -81,7 +81,7 @@ class StreamingStdOutCallbackHandler(BaseCallbackHandler):
     ) -> None:
         self.logtxt = ""
         self.msg = cl.Message(content="")
-        user_session.set("is_result_from_llm", False)
+        # user_session.set("is_result_from_llm", False)
 
 
 def build_llm(model):

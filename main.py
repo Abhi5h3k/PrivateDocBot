@@ -22,6 +22,7 @@ async def on_action(action):
 ## Cgainlit ##
 @cl.on_chat_start
 async def start():
+    user_session.set("is_result_from_llm", False)
     # Sending an action button within a chatbot message
     actions = [
         cl.Action(
@@ -65,4 +66,5 @@ async def main(message):
     if not is_result_from_llm:
         # I have added this code here because of the hacky StreamingStdOutCallbackHandler. When a user enters the same query they have searched before, the result comes from the chainlit database and no large language model (LLM) is used, so no token code runs and hence no new result is generated. Therefore, we simply return the result from the history. However, when the LLM runs, we don't want to return duplicate results as it would be redundant.
         await cl.Message(content=answer).send()
-        user_session.set("is_result_from_llm", False)
+       
+    user_session.set("is_result_from_llm", False)
