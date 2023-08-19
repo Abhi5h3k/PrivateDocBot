@@ -10,7 +10,7 @@
 
 ## Project Overview
 
-Discover the innovation of this chatbot project, seamlessly merging Streamlit's user-friendly interface with localized language models. Tailored for sensitive data, it's a vital asset for both organizations and individuals. From deciphering intricate user guides to extracting vital insights from complex PDF reports, this project streamlines data access.
+Discover the innovation of this chatbot project, seamlessly merging [Chainlit](https://docs.chainlit.io/overview) user-friendly interface with localized language models 🌐. Tailored for sensitive data, it's a vital asset for both organizations and individuals. From deciphering intricate user guides to extracting vital insights from complex PDF reports, this project streamlines data access.
 
 Equipped with advanced technology, it offers an engaging conversational experience. It redefines data interaction, empowering you with control.
 
@@ -27,7 +27,7 @@ Equipped with advanced technology, it offers an engaging conversational experien
 
 Make sure you have the following installed:
 
-- Python 3.11.0
+- [Python 3.11.0](https://www.python.org/downloads/)
 - pip 23.2.1
 - To utilize the online database, you can simply comment out the line `database = "local"` in the `config.toml` file. This will ensure that the necessary dependencies are installed.
 - Please note that for the local mode, a functional Node.js installation is essential as it relies on the Prisma CLI for its operation. You can find more details about setting up local persistence in the [Chainlit documentation](https://docs.chainlit.io/cloud/persistence/local).
