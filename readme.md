@@ -3,6 +3,8 @@
 
 [![Abhishek LinkedIn](https://img.shields.io/badge/Abhishek-LinkedIn-blue.svg?style=for-the-badge)](https://www.linkedin.com/in/abhi5h3k/) [![Abhishek StackOverflow](https://img.shields.io/badge/Abhishek-StackOverflow-orange.svg?style=for-the-badge)](https://stackoverflow.com/users/6870223/abhi?tab=profile)
 
+![Blue and White Illustrative Playful Basic Ai Tools YouTube Thumbnail](https://github.com/Abhi5h3k/PrivateDocBot/assets/37928721/34266360-f839-4e0c-b43f-f74a84c7be53)
+
 ## 🔐 Local LLM-Powered Chatbot for Secure Document Interactions
 
 
