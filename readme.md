@@ -38,7 +38,8 @@ Make sure you have the following installed:
 ## Setup Instructions
 1. Clone the project repository using Git.
 2. Download the necessary model from HuggingFace by visiting the following link: [Download Llama Model](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/blob/main/llama-2-7b-chat.ggmlv3.q8_0.bin). Once downloaded, move the model file to the "models" directory.
-    - also tested with ```llama-2-7b-chat.ggmlv3.q2_K.bin``` 
+    - also tested with ```llama-2-7b-chat.ggmlv3.q2_K.bin```  and ```mistral-7b-openorca.Q4_K_M.gguf``` 
+    - [ctransformers](https://github.com/marella/ctransformers/releases/tag/v0.2.24) Now Support GGUF format support for Llama and Falcon models.
     - [Models](models/models.md)
 3.  Install the required Python packages by running the following command:
 ```pip install -r requirements.txt ```

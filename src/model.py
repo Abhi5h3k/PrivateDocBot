@@ -123,7 +123,7 @@ def build_retrieval_qa(llm, qa_prompt, vectordb):
     return qa_chain
 
 
-def qa_bot(selected_model_name="llama-2-7b-chat.ggmlv3.q2_K.bin"):
+def qa_bot(selected_model_name="mistral-7b-openorca.Q4_K_M.gguf"):
     # setup QA Bot
 
     embeddings = get_sentence_transformer()
