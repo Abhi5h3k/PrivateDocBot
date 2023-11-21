@@ -5,6 +5,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import FAISS
 from src.model import get_sentence_transformer
 from src.utils import load_config
+from termcolor import colored
 
 cfg = load_config()
 
@@ -46,10 +47,15 @@ def load_data():
 
 
 def init_vector_db():
-    if not os.listdir(cfg.DB_FAISS_PATH):
+    files = [file for file in os.listdir(cfg.DB_FAISS_PATH) if file != 'readme.md']
+
+    if not files:
+        print(
+            colored(f"{cfg.DB_FAISS_PATH} is empty. Build vector DB on first run", 'red')
+        )
         resp = load_data()
         print(resp)
     else:
         print(
-            f"{cfg.DB_FAISS_PATH} is not empty. No need to build vector DB on first run"
+            colored(f"{cfg.DB_FAISS_PATH} is not empty. No need to build vector DB on first run",'green')
         )

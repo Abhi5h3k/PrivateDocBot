@@ -13,6 +13,9 @@ from langchain.vectorstores import FAISS
 
 from src.prompts import qa_template1
 from src.utils import determine_threads_to_use, load_config
+import os
+import sys
+from termcolor import colored
 
 cfg = load_config()
 
@@ -89,6 +92,16 @@ def build_llm(model):
     num_threads = determine_threads_to_use()
     print(f"Number of Threads avaialble : {num_threads}")
 
+    file_path = cfg.MODEL_BIN_DIR + "/" + model
+
+    if os.path.exists(file_path):
+        print(colored(f"The file at {file_path} exists.",'green'))
+    else:
+        print(colored(f"The file at {file_path} does not exist.", 'red'))
+        print(colored("Please refer to models/models.md for instructions on how to download a model and place it in the models directory.", 'green'))
+
+        sys.exit()
+    
     # Local CTransformers model
     llm = CTransformers(
         model=cfg.MODEL_BIN_DIR + "/" + model,

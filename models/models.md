@@ -3,3 +3,6 @@
 - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF/tree/main
 ### List of Supported models
 - https://github.com/marella/ctransformers
+
+### Dir Structure
+![Rebuild vector](dir_structure.PNG)
