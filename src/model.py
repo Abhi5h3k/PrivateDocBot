@@ -3,7 +3,7 @@ from uuid import UUID
 
 import chainlit as cl
 from chainlit import user_session
-from langchain import PromptTemplate
+from langchain.prompts import PromptTemplate
 from langchain.callbacks.base import BaseCallbackHandler
 from langchain.chains import RetrievalQA
 from langchain.embeddings import HuggingFaceEmbeddings

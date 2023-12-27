@@ -1,0 +1,4 @@
+/* Hide Chainlit logo */
+a[href="https://github.com/Chainlit/chainlit"][style="display: flex; align-items: center; text-decoration: none;"] {
+    display: none !important;
+}
