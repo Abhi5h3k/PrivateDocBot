@@ -24,7 +24,7 @@ cfg = load_config()
 def get_sentence_transformer():
     model_folder_path = "models/sentence-transformers/all-MiniLM-L6-v2"
     # This will download the model to the given path and use it from there.
-    return HuggingFaceEmbeddings(cache_folder=model_folder_path)
+    return HuggingFaceEmbeddings(cache_folder=model_folder_path,model_kwargs={"device": cfg.DEVICE})
 
 
 # ->
