@@ -3,6 +3,8 @@
 
 [![Abhishek LinkedIn](https://img.shields.io/badge/Abhishek-LinkedIn-blue.svg?style=for-the-badge)](https://www.linkedin.com/in/abhi5h3k/) [![Abhishek StackOverflow](https://img.shields.io/badge/Abhishek-StackOverflow-orange.svg?style=for-the-badge)](https://stackoverflow.com/users/6870223/abhi?tab=profile)
 
+![logo_dark](https://github.com/Abhi5h3k/PrivateDocBot/assets/37928721/52c9fa2c-cd5f-4afc-bdba-d80793fdaf40) 
+
 ![Blue and White Illustrative Playful Basic Ai Tools YouTube Thumbnail](https://github.com/Abhi5h3k/PrivateDocBot/assets/37928721/34266360-f839-4e0c-b43f-f74a84c7be53)
 
 ## 🔐 Local LLM-Powered Chatbot for Secure Document Interactions
@@ -11,6 +13,8 @@
 ![gif](chatBot.gif)
 
 ## Project Overview
+
+![logo_light](https://github.com/Abhi5h3k/PrivateDocBot/assets/37928721/1a60e5f2-c673-40d2-bdf5-e1e38f55af11)
 
 Discover the innovation of this chatbot project, seamlessly merging [Chainlit](https://docs.chainlit.io/overview) user-friendly interface with localized language models 🌐. Tailored for sensitive data, it's a vital asset for both organizations and individuals. From deciphering intricate user guides to extracting vital insights from complex PDF reports, this project streamlines data access.
 
