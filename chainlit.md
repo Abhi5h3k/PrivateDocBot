@@ -5,9 +5,13 @@
 
 ## Locally Hosted Chat Bot for Private data
 
+![](/public/logo_dark.png)
+
 ![](chatBot.gif)
 
 ## Project Overview
+
+![](/public/logo_light.png)
 
 Discover the innovation of this chatbot project, seamlessly merging Streamlit's user-friendly interface with localized language models. Tailored for sensitive data, it's a vital asset for both organizations and individuals. From deciphering intricate user guides to extracting vital insights from complex PDF reports, this project streamlines data access.
 
