@@ -3,6 +3,9 @@
 
 [![Abhishek LinkedIn](https://img.shields.io/badge/Abhishek-LinkedIn-blue.svg?style=for-the-badge)](https://www.linkedin.com/in/abhi5h3k/) [![Abhishek StackOverflow](https://img.shields.io/badge/Abhishek-StackOverflow-orange.svg?style=for-the-badge)](https://stackoverflow.com/users/6870223/abhi?tab=profile)
 
+ <img src="https://zeevector.com/wp-content/uploads/New-Transparent-Logo-label@zeevector.png" width="50px"> **Check Another LLM Project :** [🔐 LLQuery : Your Conversational SQL Bridge](https://github.com/Abhi5h3k/LLQuery/tree/main) <img src="https://zeevector.com/wp-content/uploads/New-Transparent-Logo-label@zeevector.png" width="50px"> 
+
+
 ![logo_dark](https://github.com/Abhi5h3k/PrivateDocBot/assets/37928721/52c9fa2c-cd5f-4afc-bdba-d80793fdaf40) 
 
 ![Blue and White Illustrative Playful Basic Ai Tools YouTube Thumbnail](https://github.com/Abhi5h3k/PrivateDocBot/assets/37928721/34266360-f839-4e0c-b43f-f74a84c7be53)
