@@ -1,4 +1,17 @@
 /* Hide Chainlit logo */
+/* You can unhide, If you want ;) */
+
 a[href="https://github.com/Chainlit/chainlit"][style="display: flex; align-items: center; text-decoration: none;"] {
+    display: none !important;
+}
+
+
+img[src="http://localhost:8000/logo?theme=light"] {
+    display: none !important;
+}
+
+#upload-button,
+#upload-button-input,
+#upload-button-loading {
     display: none !important;
 }
