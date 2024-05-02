@@ -8,7 +8,9 @@
 
 ![logo_dark](https://github.com/Abhi5h3k/PrivateDocBot/assets/37928721/52c9fa2c-cd5f-4afc-bdba-d80793fdaf40) 
 
-![Blue and White Illustrative Playful Basic Ai Tools YouTube Thumbnail](https://github.com/Abhi5h3k/PrivateDocBot/assets/37928721/34266360-f839-4e0c-b43f-f74a84c7be53)
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Abhi5h3k/PrivateDocBot&type=Date)](https://star-history.com/#Abhi5h3k/PrivateDocBot&Date)
 
 ## 🔐 Local LLM-Powered Chatbot for Secure Document Interactions
 
