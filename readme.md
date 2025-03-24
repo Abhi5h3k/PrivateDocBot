@@ -1,16 +1,14 @@
 
-# PrivateDocBot 🚀🤖
+![logo_dark](https://github.com/Abhi5h3k/PrivateDocBot/assets/37928721/52c9fa2c-cd5f-4afc-bdba-d80793fdaf40) 
 
 [![Abhishek LinkedIn](https://img.shields.io/badge/Abhishek-LinkedIn-blue.svg?style=for-the-badge)](https://www.linkedin.com/in/abhi5h3k/) [![Abhishek StackOverflow](https://img.shields.io/badge/Abhishek-StackOverflow-orange.svg?style=for-the-badge)](https://stackoverflow.com/users/6870223/abhi?tab=profile)
 
- <img src="https://zeevector.com/wp-content/uploads/New-Transparent-Logo-label@zeevector.png" width="50px"> **Check Another LLM Project :** [🔐 LLQuery : Your Conversational SQL Bridge](https://github.com/Abhi5h3k/LLQuery/tree/main) <img src="https://zeevector.com/wp-content/uploads/New-Transparent-Logo-label@zeevector.png" width="50px"> 
+![Red   White Modern Bold Artificial Intelligence Review YouTube Thumbnail](https://github.com/user-attachments/assets/1a9a3130-5486-4ce5-ae11-34cdb6cf644c)
 
-
-![logo_dark](https://github.com/Abhi5h3k/PrivateDocBot/assets/37928721/52c9fa2c-cd5f-4afc-bdba-d80793fdaf40) 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Abhi5h3k/PrivateDocBot&type=Date)](https://star-history.com/#Abhi5h3k/PrivateDocBot&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Abhi5h3k/PrivateDocBot&type=Date)](https://www.star-history.com/#Abhi5h3k/PrivateDocBot&Date)
 
 ## 🔐 Local LLM-Powered Chatbot for Secure Document Interactions
 
@@ -94,3 +92,5 @@ Tested on :
 + Increase performance by using https://www.ray.io/ or something similar
 + Upgrade to low latency Vector DB
 + Add caching
+
+**Check Another LLM Project :** [🔐 LLQuery : Your Conversational SQL Bridge](https://github.com/Abhi5h3k/LLQuery/tree/main)
